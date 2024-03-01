@@ -22,7 +22,13 @@ python -m venv libreria_entorno
   source libreria_entorno/bin/activate
 ```
 
-3. Para ejecutar
+3. Instala la dependencia
+
+```
+pip install termcolor
+```
+
+4. Para ejecutar
 windows
   ```sh
   python libreria.py
