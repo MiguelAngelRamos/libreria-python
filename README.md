@@ -10,7 +10,7 @@ Para ejecutarlo cree un entorno virtual
 python -m venv libreria_entorno
 ```
 ```sh
-  libreria_entorno/Scripts/activate
+  libreria_entorno\Scripts\activate
 ```
 
 2. Para Mac o Linux
@@ -36,4 +36,10 @@ windows
   linux o mac
   ```sh
   python3 libreria.py
+```
+
+5. Comprobar el listado de dependencias
+
+```sh
+pip freeze
 ```
